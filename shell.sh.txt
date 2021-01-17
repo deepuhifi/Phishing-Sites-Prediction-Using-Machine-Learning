@@ -1,0 +1,13 @@
+sudo yum update
+sudo yum upgrade -y 
+sudo yum install python3 python python3-pip vim git python-virtualenv python3-devel -y
+sudo yum group install 'Development Tools' -y
+
+python3 -m pip install wheel numpy torch Scikit-learn==0.23.1 tensorboard Matplotlib Seaborn
+python3 -m pip install Pandas Plotly classification_report confusion_matrix SnowballStemmer Image Word Beautiful selenium NetworkX uvicorn fastapi joblib django flask nltk beautifulsoup4
+
+installation:
+in windows microsoft visual studio c++ 14 is required for sklearn package(scikit learn)
+in aws cloud create an swap file of 4GB to install torch properly 
+
+
